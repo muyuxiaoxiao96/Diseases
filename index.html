@@ -1,1 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta name="applicable-device" content="pc">
+<title>Climate change and Cardiovascular disease</title>
+<meta name="keywords" content="" />
+<meta name="kescription" content="" />
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/common.css">
+<link href="https://unpkg.com/layui@2.8.15/dist/css/layui.css" rel="stylesheet">
+</head>
 
+<body>
+<div class="page">
+    <div class="header flex justify-content-spacebetween">
+        <div class="lab flex align-items-center">
+            <a href="#">
+                <img src="images/l1.png" class="lab_img">
+            </a>
+            <a href="#">
+                <img src="images/l2.png" class="lab_img lab_img2">
+            </a>
+        </div>
+        <div class="info">
+            <h1>Traceable evidence of the impacts of climate change on Cardiovascular disease</h1>
+            <p>Please use the following reference to cite the use of information from this web tool: XXXXX </p>
+        </div>
+        <div class="logo">
+            <a target="_blank" href="https://www.swmu.edu.cn/">
+                <img src="images/logo.png" class="logo_img">
+            </a>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav_item flex justify-content-flexend">
+            <a href="entries.html">Entries</a>
+            <a href="#" id="info">Info</a>
+        </div>
+    </div>
+    <div class="chart" id="chart">
+
+    </div>
+</div>
+<div id="info-layer" class="info-layer">
+    <h2 class="titlebar">
+        Introduction
+        <div class="lang" id="lang">
+            <a href="#" class="on" lang="en">English</a>
+            <a href="#" lang="cn">中文</a>
+        </div>
+    </h2>
+    <div id="en" class="lang_wrapper">
+        <h4 style="margin: 30px 0;">This project systematically collates and presents the prevailing epidemiological evidence linking cardiovascular diseases (CVD) with climate change risks. Our aim is to provide a comprehensive understanding of how climatic hazards exacerbate cardiovascular ailments.
+            Research Methodology</h4>
+            <p>1. Preliminary Search: Initially, we conducted searches combining "cardiovascular disease" with each of the eleven recognized climate change factors sensitive to greenhouse gas emissions. From these searches, the top 200 most relevant results for each query were extracted, amassing a total of 2200 references.   </p><br />
+            <p>2. Cardiovascular Disease Identification: Based on the preliminary search and clinical prevalence, 40 distinct cardiovascular diseases were identified. The complete list can be accessed in the supplementary materials in the article.    </p><br />
+            <p> 3. Comprehensive Search: Subsequently, 440 unique searches were performed using combinations of the identified 40 CVDs and the 11 climate change factors. From these, the top 100 results of each query were extracted, leading to an aggregate of 44,000 references.     </p><br />
+            <p>4. Inclusion and Exclusion Criteria: Our review specifically focused on human epidemiological studies that explored the influence of climatic risks on cardiovascular diseases. We systematically filtered out irrelevant studies by examining titles, abstracts, and full texts.
+            Website Utility </p><br />
+            <p>To simplify interpretation, we've transformed our extensive research into visual representations through this website. Users can easily discern the distribution of current epidemiological evidence. Interactive elements are integrated; click on any line for detailed information, accompanied by succinct commentary. Notably, some studies that report multiple climate changes or cardiovascular diseases are counted multiple times for accuracy.
+            For a tabulated representation, the "Entries" section provides data in Excel format. For access to the original dataset, kindly email: z986100078@outlook.com. </p><br />
+    </div>
+    <div id="cn" style="display: none;" class="lang_wrapper">
+        <h4 style="margin: 30px 0;">项目简介<h4>
+            <p>为了全面系统地探讨气候变化对心血管疾病的影响，本项目对相关的流行病学证据进行了全面的收集和整理。文献检索分为两个阶段，即初步检索和详细检索。</p><br />       
+            <p>在初步检索阶段，我们在谷歌学术中使用了关键词“心血管疾病”以及11种与气候变化相关的因素进行了检索。我们从这些检索中按照相关性排序提取了每个查询的前200个最相关结果，共获得了2200篇文献。</p><br />
+            <p> 在详细检索阶段，我们进一步将40种常见心血管疾病与这11种气候变化因素分别组合，同样提取了每个查询的前200个结果，共获得了44000篇文献。随后，我们通过仔细阅读标题、摘要和全文等信息，筛选出与环境气候变化与心血管疾病相关的实证研究，排除了无关文献。</p><br />
+            <p>为了方便读者理解，我们通过本网站将研究成果可视化呈现。网页上的互动元素允许用户点击查看文献的详细信息，并提供简明扼要的评论和总结。需要注意的是，由于一些研究可能同时涵盖多种气候变化因素和心血管疾病，因此某些文献可能在统计上重复计算。如需获取包含在研究中的原始数据（Excel格式），请发送电子邮件至：z986100078@outlook.com。</p><br />
+    </div>
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://unpkg.com/layui@2.8.15/dist/layui.js"></script>
+<script src="libs/echarts.min.js"></script>
+<script src="datas/resource.js"></script>
+<script src="libs/chart.js"></script>
+</body>
+</html>
